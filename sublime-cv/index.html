@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sublime's CV</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/sublime-text.ico">
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#about-us">About Us</a></li>
+			<li><a href="#contact-us">Contact Us</a></li>
+		</ul>
+	</header>
+
+	<img class="img-center" src="img/foto-bareng.jpg">
+	<div id="about-us" class="about-us">
+		<div class="nav">
+			<a class="a active">About Us</a>
+			<a class="b">Jevin</a>
+			<a class="c">Jhon</a>
+			<a class="d">Audrey</a>
+			<a class="e">Hery</a>
+			<a class="f">Welliam</a>
+		</div>
+
+		<div id="description">
+				<script type="text/javascript">
+				$(document).ready(function(){
+					$('a').click(function(){
+						var selected = $(this);
+						$('a').removeClass('active');
+						$(selected).addClass('active');
+					});
+
+					var $a = $('.a'),
+					$b = $('.b'),
+					$c = $('.c'),
+					$d = $('.d'),
+					$e = $('.e'),
+					$f = $('.f'),
+					$description = $('#description'),
+					$Jevin = $('#Jevin'),
+					$Jhon = $('#Jhon'),
+					$Audrey = $('#Audrey'),
+					$Hery = $('#Hery'),
+					$Welliam = $('#Welliam')
+				
+
+					$a.click(function(){
+				   		$description.fadeIn();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$b.click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeIn();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$c.click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeIn();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$d.click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeIn();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$e.click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeIn();
+				  		$Welliam.fadeOut();
+					});
+
+					$f.click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeIn();
+					});
+
+					$('.crop-jevin').click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeIn();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$('.crop-jhon').click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeIn();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$('.crop-audrey').click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeIn();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeOut();
+					});
+
+					$('.crop-hery').click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeIn();
+				  		$Welliam.fadeOut();
+					});
+
+					$('.crop-welliam').click(function(){
+				   		$description.fadeOut();
+				   		$Jevin.fadeOut();
+				   		$Jhon.fadeOut();
+				   		$Audrey.fadeOut();
+				  		$Hery.fadeOut();
+				  		$Welliam.fadeIn();
+					});
+
+				});	
+				</script>   
+
+		<h2>About Us</h2><br>
+
+			<div id="about-us-desc">
+			<h4>Hello, we are Sublime Team!</h4>
+			<p>We are Sublime Team which consists of 5 members:<br> Jevin, Jhon, Audrey, Hery, and Welliam.</p><br>
+
+			<h4>Halo, kami adalah Tim Sublime!</h4>
+			<p>Kami adalah Tim Sublime yang terdiri dari 5 anggota:<br> Jevin, Jhon, Audrey, Hery, dan Welliam.</p>
+			</div>
+		
+		
+			<div id="about-us-img">
+			<img src="img/foto-bareng-5.jpg" class="crop-welliam">
+			<img src="img/foto-bareng-4.jpg" class="crop-hery">
+			<img src="img/foto-bareng-3.jpg" class="crop-audrey">
+			<img src="img/foto-bareng-2.jpg" class="crop-jhon">
+			<img src="img/foto-bareng-1.jpg" class="crop-jevin">
+			</div>
+		</div>
+
+		<br><br><br><br>
+
+		<div id="Jevin">
+		<h3>Jevin Tan</h3>
+		<img src="img/jevin.jpg" class="img-jevin" title="Jevin">
+		<p id="p-jevin">Saya, Jevin Tan, mahasiswa UIB. Saya orangnya <em>have fun</em> saja .... Saya juga menyukai hal-hal mengenai <em>coding</em>. Beberapa hobi yang saya sukai, yang pertama ialah melukis, lalu, yang kedua, berenang, dan yang terakhir adalah bermain <em>games</em>, terima kasih. Salam santuy!</p>
+		</div><br>
+
+		<div id="Jhon">
+		<h3>Jhon Indexon</h3>
+		<img src="img/jhon.jpg" class="img-jhon" title="Jhon">
+		<p id="p-jhon">Hi, saya, Jhon Indexon. Saya lahir di Batam. Hobi saya bermain <em>games</em>. Penasaran? Cari saya.</p>
+		</div><br>
+
+		<div id="Audrey">
+		<h3>Audrey Saudjhana</h3>
+		<img src="img/audrey.jpg" class="img-audrey" title="Audrey">
+		<p id="p-audrey">Yang ini namanya Audrey Saudjhana. Mahasiswi UIB jurusan Sistem Informasi semester pertama ini, suka olahraga badminton, baik sebagai penonton ataupun pemain (walaupun masih amatiran). Senang belajar hal baru, hal apa saja, terutama yang berbau <em>programming</em>.</p>
+		</div><br>
+	
+		<div id="Hery">
+		<h3>Hery Yohan</h3>
+		<img src="img/hery.jpg" class="img-hery" title="Hery">
+		<p id="p-hery">Halo, nama saya, Hery Yohan dan saya lahir di Batam dan kuliah di UIB. Saya memiliki hobi bermain bulu tangkis. Alasan saya berada di jurusan Sistem Informasi adalah karena perkembangan zaman, harus memahami dunia teknologi agar bisa maju.</p>
+		</div><br>
+
+		<div id="Welliam">
+		<h3>Welliam Ali</h3>
+		<img src="img/welliam.jpg" class="img-welliam" title="Welliam">
+		<p id="p-welliam">Nama saya Welliam Ali, kelahiran Batam, dan sekarang mahasiswa semester 1 di Universitas Internasional Batam (UIB), saya suka belajar mengenai <em>coding</em> atau desain. Hobi saya adalah bermain basket atau olahraga lainnya. Dari SMK Akuntansi kemudian mengambil Sistem Informasi, dengan alasan, kebutuhan zaman sekarang yang serba teknologi.</p>
+		</div><br>
+
+	</div>
+
+	<div id="contact-us">
+		<h2>Contact<br>Us</h2><br>
+		<p>Sublimegroup@gmail.com</p>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com.ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="carousel" class="image slide" data-ride="carousel">
+
+		<ol class="slide-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
+		</ol>
+
+		<div class="slide-inner">
+			<div class="slide-item active">
+				<img src="screenshot-3.png" alt="First Slide">
+			</div>
+			<div class="slide-item">
+				<img src="screenshot-13.png" alt="Second Slide">
+			</div>
+			<div class="slide-item">
+				<img src="screenshot-14.png" alt="Third Slide">
+			</div>
+		</div>
+
+		<a class="slide-control-prev" href="#carousel" role="button" data-slide="prev">
+			<span class="slide-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="slide-control-next" href="#carousel" role="button" data-slide="next">
+			<span class="slide-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+
+@font-face{
+	font-family: "Dosis";
+	src: url("font/Dosis/Dosis-VariableFont:wght.ttf") format ('truetype'),
+	}
+
+@font-face{
+	font-family: "Josefin Sans";
+	src: url("font/Josefin_Sans/JosefinSans-Regular.ttf") format ('truetype');
+}
+
+$(window).scroll(function() {
+
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 500) {
+		$(".clearHeader").addClass("darkHeader");
+	} else {
+		$(".clearHeader").removeClass("darkHeader");
+	}
+});
+</body>
