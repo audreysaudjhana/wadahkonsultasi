@@ -18,7 +18,7 @@ input {
 	 left: 0;
 	 right: 0;
 	 bottom: 0;
-	 background-color: rgba(18, 67, 100, .6);
+	 background-color: rgba(0, 0, 0, .6);
 	 content: '';
 	 opacity: 0;
 	 pointer-events: none;
@@ -102,7 +102,7 @@ input {
 	 text-decoration: none;
 	 font-weight: 500;
 	 transform: translateX(-100%);
-	 transition: color 0.15s, transform 0.5s;
+	 transition: color 0.15s, transform 0.5s, ease-in-out 0.2s;
 	 transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
  nav a:nth-child(1) {
@@ -124,7 +124,10 @@ input {
 	 transition-delay: 0s, 350ms;
 }
  nav a:hover, nav a:focus {
+ 	 text-decoration: none;
 	 color: black;
+	 background-color: white;
+	 transition-duration: 2s;
 }
  main {
 	 overflow: hidden;
@@ -186,7 +189,7 @@ input {
 	 font: 1em/1.4 "lato";
 }
  main {
-	 background: #3498db;
+	 background: #3e3eab;
 	 padding: 5% 0;
 }
  article {
