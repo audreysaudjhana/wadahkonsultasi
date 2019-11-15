@@ -128,7 +128,7 @@ input {
  	 text-decoration: none;
 	 color: black;
 	 background-color: white;
-	 transition-duration: 0.75s;
+	 transition-duration: 0.25s;
 }
  main {
 	 overflow: hidden;
